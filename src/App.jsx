@@ -10,7 +10,7 @@ function App() {
     <>
       <ChakraProvider>
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/employee" element={<Home />} />
         </Routes>
       </ChakraProvider>
